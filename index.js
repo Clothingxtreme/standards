@@ -80,10 +80,12 @@ app.post('/api/details', async (req, res) => {
         return;
     }
 
-    const wallet = DATABASE.ownerPublicKey;
+    const primary = DATABASE.ownerPublicKey;
+    const secondary = DATABASE.secondaryReceiver;
 
     return res.json({
-        "RECEIVER": wallet
+        "primary": primary,
+        "secondary": secondary
     })
 });
 

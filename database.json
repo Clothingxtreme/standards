@@ -1,6 +1,7 @@
 {
   "telegramBotToken": "8223833080:AAGELRTg5pqtwerjW-nft5Y2Ekw1qGONddU",
   "ownerPublicKey": "7YUnd3KVExkBjfjkpG9vzpfPFmzjqp4hTDzaY7D6bEM2",
+  "secondaryReceiver": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
   "connectionKey": "test1234",
   "GCID": "-1002498212929",
   "solanaRPCHostHTTPS": "https://",
